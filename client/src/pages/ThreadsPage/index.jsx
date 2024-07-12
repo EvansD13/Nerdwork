@@ -15,7 +15,8 @@ export default function ThreadsPage() {
 
     const fetchThreads = async (id) => {
     try {
-        const response = await fetch(`https://nerdwork-server.onrender.com/community/${id}`, {
+        const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/community/${id}`, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -24,7 +25,8 @@ export default function ThreadsPage() {
         setCommunity(data.Communities) // This was added in with out testing properly 
 
         try {
-            const response = await fetch(`https://nerdwork-server.onrender.com/thread/community/${id}`, {
+            const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/thread/community/${id}`, {
                 headers: {
                     'Content-Type': 'application/json',
                 },

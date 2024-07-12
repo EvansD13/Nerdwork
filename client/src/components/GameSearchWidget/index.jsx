@@ -16,7 +16,8 @@ export default function GameSearchWidget () {
 
     const fetchComics = async () => {
         try {
-            const response = await fetch("https://nerdwork-server.onrender.com/item/game"); 
+            const response = await fetch("https://nerdwork-qlxa.onrender.com
+/item/game"); 
             const data = await response.json();
             console.log(data)
             const games = data.items

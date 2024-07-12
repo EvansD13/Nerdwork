@@ -15,7 +15,8 @@ export default function PostPage() {
 
     const fetchPosts = async (thread_id) => {
     try {
-        const response = await fetch(`https://nerdwork-server.onrender.com/thread/${thread_id}`, {
+        const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/thread/${thread_id}`, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -24,7 +25,8 @@ export default function PostPage() {
         setThread(data)
         
         try {
-            const response = await fetch(`https://nerdwork-server.onrender.com/post/`, {
+            const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/post/`, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
@@ -63,7 +65,8 @@ export default function PostPage() {
         ));
     }
     const postComment = () => {
-        const url = `https://nerdwork-server.onrender.com/post/`; // Replace with your actual endpoint
+        const url = `https://nerdwork-qlxa.onrender.com
+/post/`; // Replace with your actual endpoint
         const email = localStorage.getItem('email'); // Assuming email is stored in localStorage
         console.log("ok2")
         fetch(url, {

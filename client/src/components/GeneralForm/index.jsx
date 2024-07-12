@@ -30,7 +30,8 @@ export default function GeneralForm( { onAddBook, modalOpen, setModalOpen } ){
     
       const updateImage = async (title, email) => {
         try {
-          const response = await fetch(`https://nerdwork-server.onrender.com/google/`, {
+          const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/google/`, {
             method: 'PATCH',
             headers: {
               'Content-Type': 'application/json',
@@ -64,7 +65,8 @@ export default function GeneralForm( { onAddBook, modalOpen, setModalOpen } ){
         };
     
         try {
-          const response = await fetch('https://nerdwork-server.onrender.com/item/', {
+          const response = await fetch('https://nerdwork-qlxa.onrender.com
+/item/', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

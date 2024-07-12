@@ -16,7 +16,8 @@ export default function ComicSearchWidget () {
 
     const fetchComics = async () => {
         try {
-            const response = await fetch("https://nerdwork-server.onrender.com/item/comic%20book"); 
+            const response = await fetch("https://nerdwork-qlxa.onrender.com
+/item/comic%20book"); 
             const data = await response.json();
             console.log(data)
             const comics = data.items

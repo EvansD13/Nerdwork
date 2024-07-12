@@ -9,7 +9,8 @@ import { NavigationBar, FormInput, FormMultiSelect, FormRating, FormSelect, Book
 
 
 
-const apiURL = "https://nerdwork-server.onrender.com"
+const apiURL = "https://nerdwork-qlxa.onrender.com
+"
 const siteURL = "https://nerdwork.onrender.com/"
 const localURL = "http://localhost:5173/"
 
@@ -153,7 +154,8 @@ export default function MyBookshelfPage( { sidebarExtended, setSidebarExtended, 
     
       const updateImage = async (title, email) => {
         try {
-          const response = await fetch(`https://nerdwork-server.onrender.com/google/`, {
+          const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/google/`, {
             method: 'PATCH',
             headers: {
               'Content-Type': 'application/json',
@@ -189,7 +191,8 @@ export default function MyBookshelfPage( { sidebarExtended, setSidebarExtended, 
         };
     
         try {
-          const response = await fetch('https://nerdwork-server.onrender.com/item/', {
+          const response = await fetch('https://nerdwork-qlxa.onrender.com
+/item/', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

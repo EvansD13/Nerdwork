@@ -17,7 +17,8 @@ const RequestPage = () => {
   id = parseInt(id)
   const fetchRequest = async () => {
     try {
-      const response = await fetch('https://nerdwork-server.onrender.com/trade/', {
+      const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/', {
         headers: {
           'Content-Type': 'application/json',
         },
@@ -42,7 +43,8 @@ const RequestPage = () => {
     const item_id = singleRequest.wanted_item_id
     let ourCategory = undefined
     try {
-      const response = await fetch('https://nerdwork-server.onrender.com/item/', {
+      const response = await fetch('https://nerdwork-qlxa.onrender.com
+/item/', {
         headers: {
           'Content-Type': 'application/json',
         },
@@ -53,7 +55,8 @@ const RequestPage = () => {
       ourCategory = ourItem[0].category
 
       try {
-        const response = await fetch(`https://nerdwork-server.onrender.com/user/${requestEmail}/${ourCategory}`, {
+        const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/user/${requestEmail}/${ourCategory}`, {
           headers: {
             'Content-Type': 'application/json',
           },
@@ -163,7 +166,8 @@ const RequestPage = () => {
     async function handleSwapRequest(selectedBook) {
       const book_id = selectedBook.item_id
       try {
-        const response = await fetch('https://nerdwork-server.onrender.com/trade/swap', {
+        const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/swap', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -191,7 +195,8 @@ const RequestPage = () => {
 
 const handleReject = async () => {
   try {
-      const response = await fetch('https://nerdwork-server.onrender.com/trade/', {
+      const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/', {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

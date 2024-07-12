@@ -9,7 +9,8 @@ import Penguin from "../../assest/icons/penguin.png"
 
 
 
-const apiURL = "https://nerdwork-server.onrender.com"
+const apiURL = "https://nerdwork-qlxa.onrender.com
+"
 const siteURL = "https://nerdwork.onrender.com/"
 const localURL = "http://localhost:5173/"
 export default function ProfilePage(){
@@ -44,7 +45,8 @@ export default function ProfilePage(){
 
       const fetchRequest = async () => {
         try {
-          const response = await fetch('https://nerdwork-server.onrender.com/trade/', {
+          const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/', {
             headers: {
               'Content-Type': 'application/json',
             },
@@ -63,7 +65,8 @@ export default function ProfilePage(){
 
       const fetchItems = async () => {
         try {
-          const response = await fetch('https://nerdwork-server.onrender.com/item/', {
+          const response = await fetch('https://nerdwork-qlxa.onrender.com
+/item/', {
             headers: {
               'Content-Type': 'application/json',
             },
@@ -80,7 +83,8 @@ export default function ProfilePage(){
 
     const fetchSwap = async () => {
         try {
-          const response = await fetch('https://nerdwork-server.onrender.com/trade/swap', {
+          const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/swap', {
             headers: {
               'Content-Type': 'application/json',
             },
@@ -209,7 +213,8 @@ export default function ProfilePage(){
 
     const handleReject = async (request) => {
         try {
-            const response = await fetch('https://nerdwork-server.onrender.com/trade/', {
+            const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/', {
               method: 'PATCH',
               headers: {
                 'Content-Type': 'application/json',
@@ -231,7 +236,8 @@ export default function ProfilePage(){
 
         const handleRejectSwap = async (swap) => {
           try {
-              const response = await fetch('https://nerdwork-server.onrender.com/trade/swap', {
+              const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/swap', {
                 method: 'PATCH',
                 headers: {
                   'Content-Type': 'application/json',
@@ -253,7 +259,8 @@ export default function ProfilePage(){
 
           const handleApproval = async (swap) => {
             try {
-                const response = await fetch('https://nerdwork-server.onrender.com/trade/swap', {
+                const response = await fetch('https://nerdwork-qlxa.onrender.com
+/trade/swap', {
                   method: 'PATCH',
                   headers: {
                     'Content-Type': 'application/json',
@@ -271,7 +278,8 @@ export default function ProfilePage(){
                 const itemList = [swap.wanted_item_id, swap.requestie_item_id]
                 for (let item in itemList) { 
                 try {
-                    const response = await fetch(`https://nerdwork-server.onrender.com/trade/${item}`, {
+                    const response = await fetch(`https://nerdwork-qlxa.onrender.com
+/trade/${item}`, {
                     method: 'DELETE',
                     headers: {
                       'Content-Type': 'application/json',
