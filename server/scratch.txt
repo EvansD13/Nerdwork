@@ -1,0 +1,112 @@
+pipenv requirements > requirements.txt
+
+Haven't really looked at this but its another friends list data base 
+so might be worth looking at, at some point:
+https://stackoverflow.com/questions/18807322/sqlalchemy-foreign-key-relationship-attributes
+
+* Authentication Routes (auth.py) - Blueprint 
+
+auth = Blueprint('auth', __name__)
+app.register_blueprint(auth, url_prefix='/') > __init__.py
+
+/login 
+    > GET request to login 
+    
+/logout
+    > maybe? 
+
+/signup 
+    > POST request to signup 
+    > Hashing password
+
+--- 
+
+> SELECT user_id FROM products where book="Harry Potter"
+    Filters the product table to display all users who have the particular book
+
+
+3 separate tabs:
+    book
+    comic 
+    games
+
+
+---
+
+item_id 
+product_type --book/comic/game
+name
+user_id
+category -- scifi, adventure, horror
+platform -- nullable 
+
+---
+
+user.py 
+
+/user
+    get display all user
+            {
+                name:
+                email:
+                address:
+
+            }
+/user/<id>
+
+    display one
+
+products.py
+
+/product
+    GET:
+        > Display all books or games or comics
+    
+    POST to get all item
+    POST new item
+    * User will input product_type, name, category, platform(optional)
+    * user_id will be provided by the token 
+
+
+/product/<product_type>
+    GET
+    > Occurs when you select the different tabs e.g. book, comic, game
+    > Displays all books
+
+
+/product/<product_type>/<name> 
+    get to display users only with a specific item 
+        GET by name
+
+
+USER STORY:
+
+1) Then the user will search a book
+
+2) Front end will dynamically filter the selection of books
+
+3) User selects a single book
+
+4) 
+    Navigate to a page displaying all users with that book
+    GET request on the following route:
+    
+    SQL: 
+        SELECT * FROM item where book="Harry Potter"
+        
+        request.args.get(param1)
+        request.args.get(param2)
+
+/product/<product_type>/<name> 
+    get to display users only with a specific item 
+        GET by name
+
+5) User selects a specific user 
+
+    GET:
+        /user/<id>
+
+
+
+
+

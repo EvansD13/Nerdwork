@@ -1,0 +1,123 @@
+body{
+    background-color: #E0F5F3;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+
+.btn-container{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+
+    /* Border */
+    border-radius: 20px;
+}
+
+h1{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+.confirm-or-reject{
+    margin: 10px;
+    width: 150px;
+    height: 55px;
+    border-radius: 20px;
+}
+
+.selected-book{
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.selected-book-description{
+  margin: 30px;
+}
+
+.book-card {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20   px;
+    overflow: hidden;
+    background-color: white;
+  } 
+  
+  /* Set a fixed height for the book cards */
+  .book-card img {
+    max-height: 200px; /* Adjust as needed */
+  }
+
+  .container {
+    max-width: auto;
+    margin: 0 auto;
+    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem;
+    background-color: #E0F5F3
+  }
+  
+  .page-title-new {
+    font-size: 2.5rem;
+    color: #333;
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 1rem;
+    padding-left: 360px;
+  }
+
+  .page-author {
+    font-size: 1.5rem;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .image-container {
+    flex-basis: 40%; 
+    align-self: left;
+  }
+  
+  .book-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-right: 2rem; 
+    border: 5px solid #d2b48c;
+    border-radius: 10px;
+  }
+  
+  .text-content {
+    flex-basis: 60%; 
+    align-self: center;
+  }
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .rating {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .login-button{
+    margin: 10px;
+  }

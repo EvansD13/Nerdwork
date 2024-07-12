@@ -1,0 +1,11 @@
+.star {
+    cursor: pointer;
+    color: grey;
+    font-size: 32px;
+    margin-right: 4px; /* Add space between stars */
+  }
+  
+  .star.selected, .star.hovered {
+    color: gold;
+  }
+  

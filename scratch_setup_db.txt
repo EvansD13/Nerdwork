@@ -1,0 +1,12 @@
+within server folder, pipenv shell
+
+run python 
+from application import db, app
+from application.database.models import User, Friend, Item, Swap, Community, Thread, Post, Request
+app.app_context().push()
+db.create_all()
+
+DROP TABLE "user" cascade
+DROP TABLE friend, swap, item, token, post, community, thread
+
+then go check your database :)  :'D it woooorks yay

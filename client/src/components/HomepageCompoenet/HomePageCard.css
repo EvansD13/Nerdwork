@@ -1,0 +1,46 @@
+.home-page-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px; /* Adjust width as necessary */
+    margin: auto;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+
+  }
+  
+  .home-page-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-page-icon {
+    display: block;
+    margin: 0 auto 10px; /* Center the icon and add some margin at the bottom */
+    width: 50px; /* Adjust size as necessary */
+    height: auto;
+  }
+  
+  .home-page-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  .create-community {
+    background-color: #5cb85c;
+  }
+  
+  
+  
+  .create-community:hover {
+    background-color: #4cae4c;
+  }

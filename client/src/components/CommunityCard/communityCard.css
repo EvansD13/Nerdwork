@@ -1,0 +1,56 @@
+.Community-Card {
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  margin-bottom: 1rem;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+
+}
+
+/* .Community-Card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+} */
+
+.community-name {
+  padding: .45rem 1.25rem;
+  border-bottom: 1px solid #d8d8d8;
+  background-color: #99D0CC; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+}
+
+.community-name h2 {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 600; 
+}
+
+
+.community-description p {
+  margin: 0;
+  padding: .75rem 1.25rem;
+  color: #ffffff;
+  font-size: .875rem;
+  background-color: #34A299;
+  text-align: left;
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .community-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Community-Card {
+    margin-left: 15px;
+    margin-right: 15px; 
+  }
+}

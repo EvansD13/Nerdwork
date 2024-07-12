@@ -1,0 +1,105 @@
+.thread-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #E0F5F3; 
+    padding-top: 30px;
+  }
+  
+  .thread-card {
+    background-color: #E0F5F3;
+    border-radius: 20px;
+    padding: 10px;
+    height: 100%;
+    max-height: 800px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    overflow: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative; 
+    padding-bottom: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .threads .thread-title {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0; 
+    padding: .45rem 1.25rem .45rem 1.25rem; 
+    background-color: #99D0CC;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 0; 
+    width: 100%;
+  }
+  
+  .threads .thread-description {
+    margin-top: 0; 
+    padding: .45rem 1.25rem; 
+    color: #ffffff;
+    font-size: .875rem;
+    background-color: #34A299;
+    text-align: left;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px; 
+    word-break: break-all; 
+    overflow-wrap: break-word; 
+    padding-bottom: 20px;
+    width: 100%; 
+    margin-bottom: 20px;
+    align-self: flex-end; /* Align button to the end of the flex container */
+    margin-bottom: 10px;
+  }
+  
+  .view-button {
+    height: 40px;
+    background-color: #fffbed;
+    color: black;
+    border: transparent solid 3px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 0 20px; 
+    font-size: 1rem; 
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px; 
+    right: -30px; 
+    transform: translateX(-50%); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .view-button:hover {
+    background-color: #d3d0c4;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .thread-container {
+      margin: 15px;
+      padding: 15px;
+    }
+  
+    .thread-card {
+      max-width: 100%;
+      margin: 15px 0;
+      align-self: center;
+    }
+
+    .view-button {
+        position: static; 
+        width: auto; 
+        margin-top: 10px; 
+        align-self: center; 
+    }
+  }

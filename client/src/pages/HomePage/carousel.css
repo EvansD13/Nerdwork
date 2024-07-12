@@ -1,0 +1,39 @@
+.main-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+ 
+}
+
+.grid-item {
+  flex: 1 0 18%;
+  flex: 0 0 auto;
+  width: 15%;
+  height: 200px; /* Adjust based on your design */
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #fff3e0;
+  border: 2px solid #ffcc00;
+  text-align: center;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid-item {
+    flex-basis: calc(50% - 40px); /* Two items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-item {
+    flex-basis: 100%; /* Full width on very small screens */
+  }
+}

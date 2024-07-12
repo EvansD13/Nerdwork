@@ -1,0 +1,26 @@
+.navbar .nav-link {
+    margin-right: 40px; /* Adjust this value to increase the space */
+}
+
+/* This ensures the last item doesn't have a margin on the right */
+.navbar .nav-link:last-child {
+    margin-right: 0;
+}
+@media (min-width: 1480px) {
+    
+    .navbar .nav-link {
+        margin-right: 150px; /* Adjust this value to increase the space */
+    }
+}
+
+.searchTabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

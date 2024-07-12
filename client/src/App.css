@@ -1,0 +1,721 @@
+body {
+    background-color: #e0f5f3; 
+    font-family: "Source Sans Pro",Arial,sans-serif;
+}
+.navbar{
+  background-color: #404AA9;
+}
+.nav-link{
+  color: white;
+
+}
+#bootstrap-overrides .nav-link.active{
+  color: #34A299
+}
+.navbar-brand{
+  color: #34A299;
+}
+#book-card{
+  background-color: white;
+}
+
+body.login-page{
+    background-color: #e0f5f3;
+}
+hr{
+    color: black
+}
+
+.flexbox-container{
+    display: flex;
+
+}
+
+.login-container{
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+.login-array{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: transparent solid 5px;
+
+}
+
+.flexbox-item-login {
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    background-color: transparent;
+    max-width: 600px;
+    max-height: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.login-button{
+    height: 40px;
+    width: 150px;
+    background-color: #fffbed;
+    color: black;
+    margin-bottom: 20px;
+    justify-content: left;
+    border: transparent solid 3px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-button:hover{
+  background-color: #d1d1d1;
+  transition: 0.5s;
+}
+
+.login-button.login-page{
+    width: 25%;
+}
+
+.login-button.signup-page{
+    width: 40%
+}
+
+.Input,
+.passwordInput {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.input-label {
+    position: relative;
+    width: 100%;
+    color: black;
+  }
+  
+
+.input-label i.left {
+position: absolute;
+left: 10px;
+top: 35%;
+line-height: 0;
+color: black;
+font-size: 20px;
+}
+
+.input-label i.right {
+position: absolute;
+right: 10px;
+top: 35%;
+line-height: 0;
+color: black;
+font-size: 20px;
+}
+
+.inline{
+    color: #B9CCEA
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bell-ikon{
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+
+}
+.ikon {
+    color: black;
+    width: 30px;
+    height: 30px
+  }
+
+  .flexbox-image-login,
+.flexbox-login-array,
+.flexbox-container,
+.flexbox-item,
+.login-array,
+.flexbox-form,
+.flexbox-header,
+.flexbox-header-left,
+.flexbox-form-list,
+.flex-options,
+.button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox-requests{
+  flex-direction: column;
+  height:auto;
+}
+.notification{
+  color: red
+}
+.flexbox-image-login,
+.flexbox-login-array,
+.flexbox-login-array,
+.login-array,
+.flexbox-form,
+.flexbox-header,
+.flexbox-header-left,
+.flexbox-form-list,
+.flex-options {
+  position: relative;
+}
+
+.flexbox-login-array {
+  flex-direction: column;
+  width: 600px;
+  max-width: 600px;
+}
+
+.profile-sidebar{
+    width: 4.6%;
+    height: 95vh;
+    margin-left: 7px;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: #99D0CC;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.profile-sidebar-extended{
+    width: 30%;
+    height: 95vh;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 25px;
+    background-color: #99D0CC;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.profile-bar{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.carousel-item{
+    width: 100px;
+    max-width: 100px;
+    height: 350px;
+    background-color: red;
+}
+
+.profile-container{
+    justify-content: flex-start;
+
+}
+
+.profile-header{
+    align-items: center;
+    justify-content: flex-start;
+    background-color: tran;
+    width: 90%;
+    position: relative;
+    top: 20px;
+}
+
+.dot{
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+
+.dot i{
+    font-size: 50px;
+    position: relative;
+    left: 2px;
+}
+
+.dot:hover{
+    background-color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.dot i:hover{
+    color:white;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.bell{
+    position: relative;
+    left: 50px;
+    background-color: transparent;
+    align-items: center;
+}
+.bell-ikon{
+    font-size: 30px;
+}
+
+.bell-ikon:hover{
+    color:aqua;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.option-row{
+    margin-top: 50px;
+    width: 80%;
+    flex-direction: column;
+    background-color: transparent;
+}
+.option-box{
+    margin-top: 50px;
+    width: 80%;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.profile-option{
+    width: 500px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 20px;
+    color: whitesmoke
+}
+
+.profile-box{
+    width: 50px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 50%;
+    border: transparent solid 3px
+}
+
+.profile-box:hover{
+  width:300px;
+  cursor: pointer;
+  color: whitesmoke;
+  filter: hue-rotate(120deg);
+  translate: 125px;
+  border-radius: 20px;
+  transition: 0.5s
+}
+
+.profile-box:hover i{
+  position:absolute;
+  left: 10px
+}
+
+.profile-box i{
+  position: absolute;  
+  left: 45px;
+  margin-top: 0px;
+  line-height: 0;
+  color: black;
+  font-size: 25px;
+}
+
+.profile-option i{
+    position: absolute;  
+    left: 10vh;
+    margin-top: 0px;
+    line-height: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.profile-option:hover{
+    cursor: pointer;
+    filter: hue-rotate(120deg);
+    transition: 0.5s
+}
+
+.profile-option:hover i{
+    cursor: pointer;
+    position: absolute;
+    left:11vh;
+    transition: 0.3s
+}
+
+
+.profile-option:not(:hover) i {
+    position: absolute;  
+    left: 10vh;
+    line-height: 0;
+    color: black;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+.odd{
+    background-color: #404AA9;
+    color: whitesmoke;
+}
+.odd .link{
+  color: whitesmoke
+}
+.even{
+    background-color: #34A299;
+}
+
+.placeholder-box{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    border: transparent;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.lower{
+    width: 450px;
+}
+.flexbox-carousel{
+    flex-direction: column;
+    display: flex;
+    padding-left: 50px;
+    width: 60%;
+    border-radius: 10px;
+
+    align-items: flex-start;
+}
+
+.profile-bookshelf{
+    flex-direction: column;
+    padding-left: 50px;
+    width: 90%;
+    align-items: flex-start;
+    overflow-x: hidden;
+    border-radius: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+
+
+}
+
+.bookshelf-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+    scrollbar-width: thin;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+
+    scrollbar-color: transparent transparent;
+    background-color: lightgray;
+}
+
+
+.bookshelf{
+    background-color: blue;
+    width: 100px;
+    height:400px
+}
+
+.carousel-container {
+    overflow: hidden;
+    margin-bottom: 50px
+}
+
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    flex: 0 0 100%; /* Set flex-basis to 100% to make each item take the full width */
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the width */
+    height: 350px;
+    background-color: red;
+}
+
+
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 85%;
+  max-width: 1800px;
+  height: 350px;
+  transform: translate(-50%, -50%);
+  margin-top: 370px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  max-height: 350px;
+  z-index: 1;
+  border-radius: 10px;
+  
+  /* Hide scrollbar for WebKit browsers */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+.modal-arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid #fff; /* Adjust the color to contrast with the modal background */
+    bottom: 30px;
+    z-index: 2
+}
+
+.custom-modal .modal-arrow {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 250px /* Half of the arrow's height for vertical alignment */
+}
+
+.custom-modal h3{
+    margin-top: 0px;
+}
+
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.close-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #2980b9;
+}
+  
+.selected-book{
+    border: whitesmoke solid 5px;
+  }
+
+  .add-book{
+    width:"50%"; 
+    justify-Content: "flex-end"
+  }
+
+  .add-book i{
+    margin-right: "50px";
+    margin-left: "20px"; 
+    margin-bottom:"20px";
+    
+  }
+
+  .add-book i:hover{
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.modal-animation-enter {
+    opacity: 0.01;
+    transform: translateY(-20px);
+  }
+  
+  .modal-animation-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .modal-animation-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .modal-animation-exit-active {
+    opacity: 0.01;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+
+  .modal-form{
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color: aliceblue;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.modal-form-profile{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: black solid 2px
+}
+
+.modal-notifications{
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: black solid 2px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+}
+
+
+.wrapper {
+    display: flex;
+    overflow: hidden;
+    background-color: #99D0CC;
+    height: 350px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+
+
+  }
+  
+  #permas {
+    display: flex;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 100s;
+    border-radius: 10px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: transform 0.5s ease;
+    background-color: #99D0CC
+  }
+  
+  
+  #permas .profile-item {
+    height: 300px;
+    width: 180px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: transparent;
+  }
+
+  #permas .profile-item:hover{
+    cursor: pointer;
+    
+  }
+
+  .profile-item img{
+    width:200px;
+    height:300px;
+    border: 5px transparent solid
+  }
+  .profile-item img:hover{
+    scale:1.1;
+    opacity:1.5;
+    border: 5px transparent solid;
+    transition:0.3s
+  }
+
+  
+.test img{
+    width: 200px;
+    height:300px;
+    margin-right: 30px;
+
+}
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .close-ikon{
+    margin-right: "50px";
+    margin-left: "20px";
+    margin-bottom:"20px"; 
+    color: "red";
+    font-size: 30px;
+  }
+
+  .close-ikon:hover{
+    filter: hue-rotate(120deg);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .insert-image{
+    border-radius: 10px;
+  }
+
+  .request-image{
+    height: 200px;
+    width:130px
+  }
+  .request-image:hover{
+    scale: 1.15;
+    transition: 0.3s;
+  }
+  .insert-image:hover{
+    cursor: pointer;
+  }
+
+  .box-header{
+    flex-direction: row;
+    background-color: #404AA9;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:1800px;
+    color:whitesmoke 
+  }
+
+  .bottom-margin{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }

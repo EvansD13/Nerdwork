@@ -1,0 +1,12 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increase min-width for larger cards */
+    gap: 20px; /* Space between cards */
+    padding: 50px; /* Padding around the entire grid */
+    justify-content: center;
+}
+
+.bookHeading h1{
+    padding-top: 20px;
+    font-style: Bold;
+}

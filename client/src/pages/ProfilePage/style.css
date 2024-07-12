@@ -1,0 +1,33 @@
+@keyframes scrollAnimation {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .carousel-container {
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 100%;
+    background-color: violet;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    animation: scrollAnimation 15s linear infinite; /* Adjust the animation duration */
+  }
+  
+  .carousel-item {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;    
+  }
+.carousel-item p{
+    margin: auto
+}
+  
+
