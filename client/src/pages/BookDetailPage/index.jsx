@@ -7,9 +7,8 @@ import penguin from "../../assest/icons/penguin.png"
 
 import "./bookDetails.css"
 
-const apiURL = "https://nerdwork-qlxa.onrender.com
-"
-const siteURL = "https://nerdwork.onrender.com/"
+const apiURL = "https://nerdwork-qlxa.onrender.com"
+const siteURL = "https://nerdwork-1.onrender.com"
 const localURL = "http://localhost:5173/"
 
 export default function BookDetailPage(){
@@ -24,8 +23,7 @@ export default function BookDetailPage(){
       console.log(bookId, ownerEmail, requesterEmail)
       
       try {
-        const response = await fetch('https://nerdwork-qlxa.onrender.com
-/trade/', {
+        const response = await fetch('https://nerdwork-qlxa.onrender.com/trade/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

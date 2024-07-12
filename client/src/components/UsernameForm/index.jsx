@@ -3,9 +3,8 @@ import { useNavigate } from 'react-router-dom'
 
 
 
-const apiURL = "https://nerdwork-qlxa.onrender.com
-"
-const siteURL = "https://nerdwork.onrender.com/"
+const apiURL = "https://nerdwork-qlxa.onrender.com"
+const siteURL = "https://nerdwork-1.onrender.com/"
 const localURL = "http://localhost:5173/"
 const localapi = "http://localhost:3003"
 

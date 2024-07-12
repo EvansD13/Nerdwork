@@ -9,9 +9,8 @@ import { NavigationBar, FormInput, FormMultiSelect, FormRating, FormSelect, Book
 
 
 
-const apiURL = "https://nerdwork-qlxa.onrender.com
-"
-const siteURL = "https://nerdwork.onrender.com/"
+const apiURL = "https://nerdwork-qlxa.onrender.com"
+const siteURL = "https://nerdwork-1.onrender.com"
 const localURL = "http://localhost:5173/"
 
 
@@ -191,8 +190,7 @@ export default function MyBookshelfPage( { sidebarExtended, setSidebarExtended, 
         };
     
         try {
-          const response = await fetch('https://nerdwork-qlxa.onrender.com
-/item/', {
+          const response = await fetch('https://nerdwork-qlxa.onrender.com/item/', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

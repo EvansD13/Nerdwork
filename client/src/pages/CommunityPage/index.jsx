@@ -17,8 +17,7 @@ export default function CommunityPage() {
 
   const fetchCommunities = async () => {
     try {
-      const response = await fetch('https://nerdwork-qlxa.onrender.com
-/community/', {
+      const response = await fetch('https://nerdwork-qlxa.onrender.com/community/', {
         headers: {
           'Content-Type': 'application/json',
         },

@@ -16,8 +16,7 @@ export default function BookSearchWidget () {
 
     const fetchBooks = async () => {
         try {
-            const response = await fetch('https://nerdwork-qlxa.onrender.com
-/item/book'); 
+            const response = await fetch('https://nerdwork-qlxa.onrender.com/item/book'); 
             const data = await response.json();
             console.log(data)
             const book = data.items

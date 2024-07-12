@@ -29,8 +29,7 @@ const FormsPage = ({ onAddBook, setModalOpen, modalOpen }) => {
 
   const updateImage = async (title, email) => {
     try {
-      const response = await fetch(`https://nerdwork-qlxa.onrender.com
-/google/`, {
+      const response = await fetch(`https://nerdwork-qlxa.onrender.com/google/`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -64,8 +63,7 @@ const FormsPage = ({ onAddBook, setModalOpen, modalOpen }) => {
     };
     
     try {
-      const response = await fetch('https://nerdwork-qlxa.onrender.com
-/item/', {
+      const response = await fetch('https://nerdwork-qlxa.onrender.com/item/', {
         method: 'POST',
         headers: {
           Accept: "application/json",
